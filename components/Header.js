@@ -11,7 +11,7 @@ import { HiMiniUserCircle } from "react-icons/hi2";
 import { IoMoonOutline } from "react-icons/io5";
 import { IoSunnyOutline } from "react-icons/io5";
 
-export default function Footer() {
+export default function Header() {
   return (
     <div className="w-full h-14 bg-gray-200 flex justify-center items-center">
       <div className="w-1/4 h-full flex justify-center items-center child:text-gray-900 child:text-4xl">
