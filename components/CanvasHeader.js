@@ -20,25 +20,17 @@ const drawCircle = () => {
 
   return (
     <div className="w-full h-14 bg-gray-200 flex justify-center items-center">
-      <div className="w-1/4 h-full flex justify-center items-center child:text-gray-900 child:text-4xl">
-        <TbGeometry />
-      </div>
+      
       <div className="w-2/4 gap-2 h-full flex justify-center items-center group child:text-gray-900 child:text-4xl child-hover:shadow-xl child-hover:cursor-pointer">
-        <RiArtboardLine />
-        {/* <RxText />
+        {/* <RiArtboardLine /> */}
+        <RxText />
         <RxValue onClick={drawCircle} />
         <RxVercelLogo />
         <RxBox />
         <BsBrush />
-        <RxEraser /> */}
+        <RxEraser />
       </div>
-      <div
-        className="w-1/4 h-full child-hover:shadow-xl gap-4 flex justify-center items-center child:text-gray-900 child:text-4xl child-hover:cursor-pointer"
-      >
-        <HiMiniUserCircle />
-        <IoMoonOutline />
-        <IoSunnyOutline />
-      </div>
+     
     </div>
   );
 }
